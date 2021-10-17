@@ -1,0 +1,179 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.general {
+    background: cadetblue;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.right-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.right-menu > a{
+    margin-left: 25px;
+
+    padding: 10px;
+
+    text-decoration: none;
+    color: white;
+    border: 1px solid cornflowerblue;
+    border-radius: 10px;
+    background: cornflowerblue;
+}
+
+.right-menu > a:hover{
+    font-size: 20px;
+    background: darkcyan;
+
+    -webkit-transition: .2s ease-out;
+    -webkit-transition-delay: 0.5s;
+    -o-transition: .2s ease-out;
+    -o-transition-delay: 0.5s;
+    -moz-transition: .2s ease-out;
+    -moz-transition-delay: 0.5s;
+    transition: .2s ease-out;
+    transition-delay: 0.5s;
+}
+.left-menu > a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid cornflowerblue;
+    border-radius: 10px;
+    background: cornflowerblue;
+
+    padding: 10px;
+}
+.left-menu > a:hover{
+    font-size: 20px;
+    background: darkcyan;
+
+    -webkit-transition: .2s ease-out;
+    -webkit-transition-delay: 0.5s;
+    -o-transition: .2s ease-out;
+    -o-transition-delay: 0.5s;
+    -moz-transition: .2s ease-out;
+    -moz-transition-delay: 0.5s;
+    transition: .2s ease-out;
+    transition-delay: 0.5s;
+}
+
+.header-info{
+    margin: 25px;
+
+}
+.header-info > h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-info > p{
+    margin: 25px;
+}
+.header-info > div{
+    margin-top: 25px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 25px;
+}
+.header-info > div > img{
+    border-radius: 12px;
+    width: 250px;
+}
+.user-films{
+    margin: 25px;
+}
+.user-films >h2{
+    margin: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user-films > p{
+    margin: 25px;
+}
+.list-of-my-films{
+    margin: 25px;
+}
+.list-of-my-films > h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list-of-my-films > ul > a{
+
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.list-of-my-films > ul > a > img {
+    width: 250px;
+    border-radius: 10px;
+}
+.list-of-my-films > ul > a > img:hover{
+    box-shadow:20px 20px 20px 20px darkblue;
+}
+.list-of-my-films > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.some-info-in-p{
+    margin: 30px;
+}
+.some-info-in-p > h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.some-info-in-p > p{
+    margin: 30px;
+}
+.contact-with-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-with-me > form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-with-me > form > section > input{
+    border-radius: 15px;
+    padding: 10px;
+}
+.contact-with-me > form > section > textarea{
+    border-radius: 15px;
+    padding: 10px;
+}
+.contact-with-me > form > section{
+    margin: 10px;
+}
+.contact-with-me > form > section > label{
+    font-size: 25px;
+}
+.contact-with-me > form > section > button{
+    background: cornflowerblue;
+    color: white;
+}
+.footer{
+    background: darkblue;
+    height: 90px;
+}
