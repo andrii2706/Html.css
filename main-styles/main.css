@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
 }
-.link{
-    margin: 25px;
+.flex{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.link{
+    margin: 25px;
 }
 .link > a{
     text-decoration: none;

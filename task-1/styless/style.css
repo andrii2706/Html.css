@@ -12,9 +12,6 @@
 
 .first-block > h1 {
     padding: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .second-block {
@@ -27,9 +24,6 @@
 
 .second-block > h1 {
     padding: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .third-block {
@@ -41,9 +35,6 @@
 }
 .third-block > h1{
     padding: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .flex{
     display: flex;
