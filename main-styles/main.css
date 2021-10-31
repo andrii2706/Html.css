@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.link{
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link > a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid cornflowerblue;
+    background: cornflowerblue;
+}
+.link > a:hover{
+    border: 1px solid tomato;
+    background: tomato;
+    color:white;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
